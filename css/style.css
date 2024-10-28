@@ -79,9 +79,9 @@ body{
 /* 進度條在跑 */
 .schedule_bg{
     width: 0;
-    height: 30px;
-    top: 10px;
-    left: 10px;
+    height: 32px;
+    top: 9px;
+    left: 8px;
     border-radius: 50px;
     background-color: #6c5c4b;
     position: absolute;
