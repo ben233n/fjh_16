@@ -36,14 +36,17 @@ money_button_word.addEventListener("click",function(){
     {
         alert("請輸入名字");
     }
-    else if(email==="")
-    {
-        alert("請輸入email");
-    }
     else if(!(email.includes("@")) || !(email.includes(".")))
     {
-        alert("請輸入正確的email");
-    }    
+        if(email==="" )
+        {
+            alert("請輸入email");
+        }
+        else
+        {
+            alert("請輸入正確的email");
+        }
+    }   
     else
     {
         step_1.style.backgroundColor="#a59482";
