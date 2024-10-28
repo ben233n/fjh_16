@@ -32,9 +32,16 @@ money_button_word.addEventListener("click",function(){
     {
         alert("請選擇捐款金額");
     }
-    else if(user==="")
+    else if(user.length<2)
     {
-        alert("請輸入名字");
+        if(user==="")
+        {
+            alert("請輸入名字");
+        }
+        else
+        {
+            alert("請輸入正確的名字");
+        }
     }
     else if(!(email.includes("@")) || !(email.includes(".")))
     {
